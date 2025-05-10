@@ -90,10 +90,6 @@ ol {
   border: none;
 }
 
-.search-form__fieldset__checkbox {
-  margin-bottom: 4px;
-}
-
 .search-form__fieldset-title {
   padding-bottom: 5px;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -322,16 +318,16 @@ ol {
 }
 
 .content__video-card-description {
-  padding-top: 6px;
+  display: -webkit-box;
+  padding-top: 6px;            
+  overflow: hidden;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1;
-  display: -webkit-box;             
+  line-height: 1;                 
+  text-overflow: ellipsis;             
   -webkit-box-orient: vertical;     
-  -webkit-line-clamp: 4;            
-  overflow: hidden;                 
-  text-overflow: ellipsis; 
+  -webkit-line-clamp: 4; 
 }
 
 .content__video-card-thumbnail {
