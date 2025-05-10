@@ -22,7 +22,6 @@ html {
 
 .page {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin: auto;
   color: #fff;
@@ -55,26 +54,21 @@ ol {
 .content {
   display: grid;
   grid-template-columns: 711px 399px;
-  align-items: end;
+  align-items:end;
   gap: 30px;
-  margin: 133px 30px 140px;
 }
 
 .result {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   grid-area: 1/1/1/1;
-  justify-content: end;
-  width: 100%;
-  max-height: 100%;
 }
 
 .result__video-container {
   position: relative;
   width: 711px;
   height: 386px;
-  padding-bottom: 16px;
-  }
+}
 
 .result__video {
   width: 100%;
@@ -87,6 +81,7 @@ ol {
   justify-content: space-between;
   align-items: end;
   gap: 30px;
+  padding-top: 16px;
 }
 
 .search-form__fieldset {
@@ -158,6 +153,7 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
+  margin-bottom: 5px;
 }
 
 
@@ -233,9 +229,6 @@ ol {
   grid-template-columns: 399px;
   grid-template-rows: max-content 298px;
   grid-area: 1/2/1/2;
-  justify-content: end;
-  max-width: 100%;
-  max-height: 100%;
 }
 
 .title {
