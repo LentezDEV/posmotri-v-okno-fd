@@ -28,7 +28,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  inline-size: 1200px;
+  max-inline-size: 1200px;
   block-size: 100%;
 }
 
@@ -61,7 +61,7 @@ ol {
 .result {
   display: flex;
   flex-direction: column; 
-  grid-area: 1/1/1/1;
+  grid-area: 1 / 1 / 2 / 2;
 }
 
 .result__video-container {
@@ -224,7 +224,7 @@ ol {
   display: grid;
   grid-template-columns: 399px;
   grid-template-rows: max-content 298px;
-  grid-area: 1/2/1/2;
+  grid-area: 1 / 2 / 2 / 3;
 }
 
 .title {
